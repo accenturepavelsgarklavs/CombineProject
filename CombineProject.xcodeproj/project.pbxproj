@@ -8,22 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		1BDB4BCE27E1EF69004DF2BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB4BCD27E1EF69004DF2BA /* AppDelegate.swift */; };
-		1BDB4BD027E1EF69004DF2BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB4BCF27E1EF69004DF2BA /* SceneDelegate.swift */; };
-		1BDB4BD227E1EF69004DF2BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB4BD127E1EF69004DF2BA /* ViewController.swift */; };
-		1BDB4BD527E1EF69004DF2BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BDB4BD327E1EF69004DF2BA /* Main.storyboard */; };
 		1BDB4BD727E1EF6B004DF2BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BDB4BD627E1EF6B004DF2BA /* Assets.xcassets */; };
 		1BDB4BDA27E1EF6B004DF2BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BDB4BD827E1EF6B004DF2BA /* LaunchScreen.storyboard */; };
+		1BDB4BE427E1EFAB004DF2BA /* CombineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB4BE327E1EFAB004DF2BA /* CombineViewController.swift */; };
+		1BDB4BE627E1EFCB004DF2BA /* CombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB4BE527E1EFCB004DF2BA /* CombineViewModel.swift */; };
+		1BDB4BE927E1F06A004DF2BA /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB4BE827E1F06A004DF2BA /* RegisterView.swift */; };
+		1BDB4BEC27E1F6A1004DF2BA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB4BEB27E1F6A1004DF2BA /* Constants.swift */; };
+		1BDB4BF027E2056E004DF2BA /* MakeCheckMarkIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB4BEF27E2056E004DF2BA /* MakeCheckMarkIcon.swift */; };
+		1BDB4BF427E20CB1004DF2BA /* TextFieldPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB4BF327E20CB1004DF2BA /* TextFieldPublisher.swift */; };
+		1BDB4BF727E32145004DF2BA /* ValidateUsername.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB4BF627E32145004DF2BA /* ValidateUsername.swift */; };
+		1BDB4BF927E3233A004DF2BA /* ValidatePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB4BF827E3233A004DF2BA /* ValidatePassword.swift */; };
+		1BDB4BFD27E34C14004DF2BA /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB4BFC27E34C14004DF2BA /* CustomTextField.swift */; };
+		1BDB4BFF27E357AE004DF2BA /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB4BFE27E357AE004DF2BA /* CustomButton.swift */; };
+		A2D1F86742BCABBA76F70822 /* Pods_CombineProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA864B0B7B0918D26D45CB5F /* Pods_CombineProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1BDB4BCA27E1EF69004DF2BA /* CombineProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BDB4BCD27E1EF69004DF2BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1BDB4BCF27E1EF69004DF2BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1BDB4BD127E1EF69004DF2BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1BDB4BD427E1EF69004DF2BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1BDB4BD627E1EF6B004DF2BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BDB4BD927E1EF6B004DF2BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BDB4BDB27E1EF6B004DF2BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BDB4BE327E1EFAB004DF2BA /* CombineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineViewController.swift; sourceTree = "<group>"; };
+		1BDB4BE527E1EFCB004DF2BA /* CombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineViewModel.swift; sourceTree = "<group>"; };
+		1BDB4BE827E1F06A004DF2BA /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		1BDB4BEB27E1F6A1004DF2BA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1BDB4BEF27E2056E004DF2BA /* MakeCheckMarkIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeCheckMarkIcon.swift; sourceTree = "<group>"; };
+		1BDB4BF327E20CB1004DF2BA /* TextFieldPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldPublisher.swift; sourceTree = "<group>"; };
+		1BDB4BF627E32145004DF2BA /* ValidateUsername.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateUsername.swift; sourceTree = "<group>"; };
+		1BDB4BF827E3233A004DF2BA /* ValidatePassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatePassword.swift; sourceTree = "<group>"; };
+		1BDB4BFC27E34C14004DF2BA /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		1BDB4BFE27E357AE004DF2BA /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		83F2397498E5A14CF26483BC /* Pods-CombineProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CombineProject.release.xcconfig"; path = "Target Support Files/Pods-CombineProject/Pods-CombineProject.release.xcconfig"; sourceTree = "<group>"; };
+		A86B925D32CDFD18D40B9C4D /* Pods-CombineProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CombineProject.debug.xcconfig"; path = "Target Support Files/Pods-CombineProject/Pods-CombineProject.debug.xcconfig"; sourceTree = "<group>"; };
+		AA864B0B7B0918D26D45CB5F /* Pods_CombineProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CombineProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2D1F86742BCABBA76F70822 /* Pods_CombineProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +61,8 @@
 			children = (
 				1BDB4BCC27E1EF69004DF2BA /* CombineProject */,
 				1BDB4BCB27E1EF69004DF2BA /* Products */,
+				6125CCB74EF6CFC033A4DCE5 /* Pods */,
+				57E696F82687F2165C6CD56B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +77,71 @@
 		1BDB4BCC27E1EF69004DF2BA /* CombineProject */ = {
 			isa = PBXGroup;
 			children = (
+				1BDB4BEA27E1F694004DF2BA /* Utils */,
+				1BDB4BE727E1F04B004DF2BA /* Views */,
+				1BDB4BE127E1EF92004DF2BA /* Controllers */,
 				1BDB4BCD27E1EF69004DF2BA /* AppDelegate.swift */,
-				1BDB4BCF27E1EF69004DF2BA /* SceneDelegate.swift */,
-				1BDB4BD127E1EF69004DF2BA /* ViewController.swift */,
-				1BDB4BD327E1EF69004DF2BA /* Main.storyboard */,
 				1BDB4BD627E1EF6B004DF2BA /* Assets.xcassets */,
 				1BDB4BD827E1EF6B004DF2BA /* LaunchScreen.storyboard */,
 				1BDB4BDB27E1EF6B004DF2BA /* Info.plist */,
 			);
 			path = CombineProject;
+			sourceTree = "<group>";
+		};
+		1BDB4BE127E1EF92004DF2BA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1BDB4BE227E1EF98004DF2BA /* CombineViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1BDB4BE227E1EF98004DF2BA /* CombineViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1BDB4BE327E1EFAB004DF2BA /* CombineViewController.swift */,
+				1BDB4BE527E1EFCB004DF2BA /* CombineViewModel.swift */,
+			);
+			path = CombineViewController;
+			sourceTree = "<group>";
+		};
+		1BDB4BE727E1F04B004DF2BA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1BDB4BE827E1F06A004DF2BA /* RegisterView.swift */,
+				1BDB4BFC27E34C14004DF2BA /* CustomTextField.swift */,
+				1BDB4BFE27E357AE004DF2BA /* CustomButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1BDB4BEA27E1F694004DF2BA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1BDB4BEB27E1F6A1004DF2BA /* Constants.swift */,
+				1BDB4BEF27E2056E004DF2BA /* MakeCheckMarkIcon.swift */,
+				1BDB4BF327E20CB1004DF2BA /* TextFieldPublisher.swift */,
+				1BDB4BF627E32145004DF2BA /* ValidateUsername.swift */,
+				1BDB4BF827E3233A004DF2BA /* ValidatePassword.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		57E696F82687F2165C6CD56B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA864B0B7B0918D26D45CB5F /* Pods_CombineProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6125CCB74EF6CFC033A4DCE5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A86B925D32CDFD18D40B9C4D /* Pods-CombineProject.debug.xcconfig */,
+				83F2397498E5A14CF26483BC /* Pods-CombineProject.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BDB4BDE27E1EF6B004DF2BA /* Build configuration list for PBXNativeTarget "CombineProject" */;
 			buildPhases = (
+				558C7A5CB89278DED643FCEE /* [CP] Check Pods Manifest.lock */,
 				1BDB4BC627E1EF69004DF2BA /* Sources */,
 				1BDB4BC727E1EF69004DF2BA /* Frameworks */,
 				1BDB4BC827E1EF69004DF2BA /* Resources */,
+				3B5C6F8384AF4DA05BD85AEC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +206,75 @@
 			files = (
 				1BDB4BDA27E1EF6B004DF2BA /* LaunchScreen.storyboard in Resources */,
 				1BDB4BD727E1EF6B004DF2BA /* Assets.xcassets in Resources */,
-				1BDB4BD527E1EF69004DF2BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B5C6F8384AF4DA05BD85AEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CombineProject/Pods-CombineProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CombineProject/Pods-CombineProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CombineProject/Pods-CombineProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		558C7A5CB89278DED643FCEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CombineProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1BDB4BC627E1EF69004DF2BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BDB4BD227E1EF69004DF2BA /* ViewController.swift in Sources */,
+				1BDB4BEC27E1F6A1004DF2BA /* Constants.swift in Sources */,
+				1BDB4BFD27E34C14004DF2BA /* CustomTextField.swift in Sources */,
+				1BDB4BF727E32145004DF2BA /* ValidateUsername.swift in Sources */,
+				1BDB4BE927E1F06A004DF2BA /* RegisterView.swift in Sources */,
+				1BDB4BF427E20CB1004DF2BA /* TextFieldPublisher.swift in Sources */,
+				1BDB4BF927E3233A004DF2BA /* ValidatePassword.swift in Sources */,
+				1BDB4BE427E1EFAB004DF2BA /* CombineViewController.swift in Sources */,
+				1BDB4BFF27E357AE004DF2BA /* CustomButton.swift in Sources */,
+				1BDB4BE627E1EFCB004DF2BA /* CombineViewModel.swift in Sources */,
+				1BDB4BF027E2056E004DF2BA /* MakeCheckMarkIcon.swift in Sources */,
 				1BDB4BCE27E1EF69004DF2BA /* AppDelegate.swift in Sources */,
-				1BDB4BD027E1EF69004DF2BA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1BDB4BD327E1EF69004DF2BA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1BDB4BD427E1EF69004DF2BA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1BDB4BD827E1EF6B004DF2BA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,9 +404,11 @@
 		};
 		1BDB4BDF27E1EF6B004DF2BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A86B925D32CDFD18D40B9C4D /* Pods-CombineProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CombineProject/CombineProject.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G2D43ULH2L;
@@ -294,7 +416,6 @@
 				INFOPLIST_FILE = CombineProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,9 +433,11 @@
 		};
 		1BDB4BE027E1EF6B004DF2BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83F2397498E5A14CF26483BC /* Pods-CombineProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CombineProject/CombineProject.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G2D43ULH2L;
@@ -322,7 +445,6 @@
 				INFOPLIST_FILE = CombineProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
